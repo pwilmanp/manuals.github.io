@@ -1,9 +1,11 @@
 COMMAND    			DESCRIPTION
-_______________________________________________________________________________________
-	     
----------------------------------------------------------------------------------------
 
 git init 			start a new repository
 git status 			commits status of the files 
-git add . 
- 
+
+git add . 			add current repository files to staged memory
+git commit -m 			commit staged changes to your git repository
+
+git rm --cached			remove file from staged 
+
+
