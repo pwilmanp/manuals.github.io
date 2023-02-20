@@ -1,0 +1,69 @@
+COMMAND    			DESCRIPTION
+_______________________________________________________________________________________
+	     MOVEMENT
+---------------------------------------------------------------------------------------
+
+k		-		move up
+j		-		move down
+h		-		move left
+l		-		move right
+
+
+w		-		moves forward to beginning of next word 
+b 		-		moves backward to beginning of next or current word
+e 		-		moves forward to end of next word
+
+
+0				jump to first character of line
+$ 				jump to last character of line
+#G				go to line # 
+gg		 		go to first line	
+G				go to end line
+
+
+%		                jump to the pair of that bracket
+/		-		search mode + n go down
+?		-		search mode + n go up
+:noh 				quit highlight
+
+
+_______________________________________________________________________________________  
+             INSERT
+_______________________________________________________________________________________           
+a				insert after cursor
+A				insert at the end of the line 
+i				insert at cursor spot
+I				insert at beginning of the line
+
+
+R				replacing characters mode
+r 		-		replace current character 
+ciw  		- 		change internal word
+cw		-		change word since cursor spot 
+
+o		-		set a new line at bottom
+O		-		set a new line at top
+  
+  
+_______________________________________________________________________________________  
+             DELETE 
+_______________________________________________________________________________________
+
+X		-		backspace delete
+x		-		delete like PacMan 
+dw		-		delete word since cursor spot
+d+$		-		delete line since cursor spot
+dd		-		delete line
+
+
+p		-		paste to right / paste to down (lines) 
+P     		-  		paste to left / paste to up (lines)
+u		-		undo 
+ctrl + r	-		redo
+		
+v + y 				copy 
+%s/word/new/g 			replace word occurrences + c (to ask)
+
+
+
+
