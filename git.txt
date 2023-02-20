@@ -7,5 +7,6 @@ git add . 			add current repository files to staged memory
 git commit -m 			commit staged changes to your git repository
 
 git rm --cached			remove file from staged 
+git rm 				remove file from git repository and personal repository
 
-
+git log				list the version history for the current branch.
