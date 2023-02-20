@@ -62,7 +62,7 @@ u		-		undo
 ctrl + r	-		redo
 		
 v + y 				copy 
-%s/word/new/g 			replace word occurrences + c (to ask)
+%s/word/new/g 			replace word occurrences + c (ask)
 
 
 
