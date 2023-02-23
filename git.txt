@@ -1,12 +1,18 @@
-COMMAND    			DESCRIPTION
+COMMAND    				DESCRIPTION
 
-git init 			start a new repository
-git status 			commits status of the files 
 
-git add . 			add current repository files to staged memory
-git commit -m 			commit staged changes to your git repository
+git init 				start a new repository
+git status 				commits status of the files 
+	
+git add . 				add current repository files to staged memory
+git commit -m 				commit staged changes to your git repository
 
-git rm --cached			remove file from staged 
-git rm 				remove file from git repository and personal repository
+git rm --cached				remove file from staged 
+git rm 					remove file from git repository and personal repository
+s
+git log					list the version history for the current branch.
 
-git log				list the version history for the current branch.
+
+git remote add origin "link"
+git push origin main
+git pull origin main
