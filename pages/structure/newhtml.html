@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dit="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Html review" />
+    <title>HTML</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./pages/styles/html.css" />
+</head>
+<body>
+    <header>
+        <h1 id="title">HTML</h1>
+    </header>
+    <nav>
+        
+    </nav>
+    <section id="types">
+        <hr /><h3>Types of text</h3><hr />
+        <table>
+            <tr>
+                <th>TEXT</th>
+                <th>CODE</th>
+                <th>DESCRIPTION</th>
+            </tr>
+            <tr>
+                <td><i>Alternative</i></td>
+                <td><code>&lt;i&gt;&lt;/i&gt;</code></td>
+                <td>For technical terms</td>
+            </tr>
+            <tr>
+                <td><em>Emphasis</em></td>
+                <td><code>&lt;em&gt;&lt;/em&gt;</code></td>
+                <td>Stressed emphasis at text</td>
+            </tr>
+            <tr>
+                <td><strong>Strong</strong></td>
+                <td><code>&lt;strong&gt;&lt;/strong&gt;</code></td>
+                <td>Represent importance</td>
+            </tr>
+            <tr>
+                <td><b>Bold</b></td>
+                <td><code>&lt;b&gt;&lt;/b&gt;</code></td>
+                <td>For key words</td>
+            </tr>
+            <tr>
+                <td><small>Small</small></td>
+                <td><code>&lt;small&gt;&lt;/small&gt;</code></td>
+                <td>Usefull at footer</td>
+            </tr>
+        </table>
+    </section>
+    <section id="lists">
+        <hr /><h3>Types of lists</h3><hr />
+        <table>
+            <tr>
+                <th>CODE</th>
+                <th>TABLE</th>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;ul&gt;<br />
+                        &lt;li&gt;&lt;/li&gt;<br />
+                        &lt;/ul&gt;
+                    </code>
+                </td>
+                <td>
+                    <ul>Unordered list
+                    <li>item</li>
+                    <li>item</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;ol&gt;<br />
+                        &lt;li&gt;&lt;/li&gt;<br />
+                        &lt;/ol&gt;
+                    </code>
+                </td>
+                <td>
+                    <ol>Ordered list
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;dl&gt;<br />
+                        &lt;dt&gt;&lt;/dt&gt;<br />
+                        &lt;dd&gt;&lt;/dd&gt;<br />
+                        &lt;/dl&gt;
+                    </code>
+                </td>
+                <td>
+                    <dl>
+                    <dt></dt>
+                    <dd>Definition list</dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="format">
+        <hr /><h3>Format types</h3><hr />
+        <table>
+            <tr>
+                <th>FORMAT</th>
+                <th>CODE</th>
+                <th>DESCRIPTION</th>
+            </tr>
+            <tr>
+                <td><code>Code</code></td>
+                <td><code>&lt;code&gt;</code></td>
+                <td>Fragment of computer code</td>
+            </tr>
+            <tr>
+                <td>Super<sup>script</sup></td>
+                <td><code>&lt;sup&gt;</code></td>
+                <td>Usefull for footnotes</td>
+            </tr>
+            <tr>
+                <td>Sub<sub>script</sub></td>
+                <td><code>&lt;sub&gt;</code></td>
+                <td>Usefull for quemical formulas</td>
+            </tr>
+        </table>
+    </section>
+    <section id="quotes">
+        <hr /><h3>Quotes</h3><hr />
+        <table>
+            <tr>
+                <th>Quote</th>
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Blockquote</h5>
+                    <Blockquote>
+                        <p>Hello i'm under the water</p>
+                        <cite>Wilman</cite>
+                    </Blockquote>
+                </td>
+                <td>
+                    <code>
+                        &lt;Blockquote&gt;<br />
+                        &lt;p&gt;&lt;/p&gt;<br />
+                        &lt;cite&gt;&lt;/cite&gt;<br />
+                        &lt;/Blockquote&gt;
+                    </code>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Symple quote</h5>
+                    <p>Wilman said one day:
+                        <q>no longer under the water</q>
+                    </p>
+                </td>
+                <td>
+                    <code>
+                        &lt;p&gt;<br />
+                        &lt;q&gt;&lt;/q&gt;<br />
+                        &lt;/p&gt;
+                    </code>
+                </td>
+            </tr> 
+        </table>
+    </section>
+    <section id="time">
+        <hr /><h3>Time</h3><hr />
+        <table>
+            <tr>
+                <th>Code</th>
+                <th>Example</th>             
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p&gt;Next post<br />
+                        &lt;time datetime="2023-04-22"&gt;<br />
+                        tomorrow&lt;/time&gt; at<br />
+                        &lt;time datetime="16:20:00.5-08:00"&gt;<br />
+                        16:20&lt;/time&gt;
+                        &lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p>Next post 
+                        <time datetime="2023-04-22">
+                            tomorrow</time> at 
+                        <time datetime="16:20:00.5-08:00">
+                            16:20</time>
+                    </p>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;p&gt;See you<br />
+                        &lt;time datetime="2023-04-22 10:00"&gt;<br />
+                        tomorrow at 10 am &lt;/time&gt;
+                        &lt;/p&gt;
+                    </code>
+                </td>
+                <td>
+                    <p>See you
+                        <time datetime='2023-04-22 10:00'>
+                            tomorrow at 10 am</time>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="links">
+        <hr /><h3>Links</h3><hr />
+        <table>
+            <tr>
+                <th>Code</th>
+                <th>Type</th>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;a href="https://"&gt;<br />
+                        my-link<br />
+                        &lt;/a&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="https://youtube.com">
+                        Absolute link
+                    </a>
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;a href="/folder/file"&gt;<br />
+                        a-file<br />
+                        &lt;/a&gt;
+                    </code>
+                </td>
+                <td>
+                    <a href="/txt files/git.txt">
+                        Relative link
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="navegation">
+        <hr /><h3>Navegation</h3><hr />
+        <table>
+            <tr>
+                <th>Code</th>
+                <th>Menu</th>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        &lt;nav role="navigation" 
+                        aria-label="menu"&gt; <br />
+                        &lt;a href="#quotes"&gt;Quotes
+                        &lt;/a&gt;<br />
+                        &lt;a href="#lists"&gt;Lists
+                        &lt;/a&gt;<br />
+                        &lt;/nav&gt;
+                    </code>
+                </td>
+                <td>
+                    <nav role="navigation" aria-label="menu">
+                        <a href="#quotes">Quotes</a>
+                        <a href="#lists">Lists</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="images">
+    </section>
+    <section id="audio">
+    </section>
+    <section id="video">
+    </section>
+    <section id="iframe">
+    </section>
+    <section id="divs-span">
+    </section>
+    <section id="attributes">
+    </section>
+    <section id="tables">
+    </section>
+    <section id="input">
+    </section>
+    <section id="checkbox">
+    </section>
+    <section id="forms">
+    </section>
+</body>
+</html>
