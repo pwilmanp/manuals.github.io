@@ -1,19 +1,25 @@
 html{
     font-size: 100%;
+    background-color: grey;
 }
 h1{
     background-color: greenyellow;
-    width:13em;
+    width:11.59em;
     font-size: 3em;
     font-weight: 100;
 }
 a{
     font-size: 2rem;
     text-decoration: none;
+    color: white;
 }
 .web{
-    color: darkgoldenrod;
+    color: white;
 }
 #editor{
-    color: red;
+    color: white;
+}
+nav{
+    background-color: black;
+    width: 35em;
 }
