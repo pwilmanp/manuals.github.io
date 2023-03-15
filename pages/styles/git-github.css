@@ -45,7 +45,4 @@ body {
     text-align: left;
     border: 1px solid #ddd;
   }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f
-  }  
+   
