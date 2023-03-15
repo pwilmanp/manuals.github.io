@@ -7,106 +7,136 @@
     <meta name="description" content="Html review" />
     <title>Html</title>
     <link rel="icon" href="" />
-    <link rel="stylesheet" href="./pages/styles/html.css" />
+    <link rel="stylesheet" href="../styles/html.css" />
 </head>
 <body>
     <header>
         <h1 id="title">HTML</h1>
     </header>
     <nav>
-    </nav>
-    <section id="types">
-        <hr /><h3>Types of text</h3><hr />
+        <ul>
+          <li><a href="#types">1</a></li>
+          <li><a href="#lists">2</a></li>
+          <li><a href="#format">3</a></li>
+          <li><a href="#quotes">4</a></li>
+          <li><a href="#time">5</a></li>
+          <li><a href="#links">6</a></li>
+          <li><a href="#navegation">7</a></li>
+          <li><a href="#images">8</a></li>
+          <li><a href="#audio">9</a></li>
+          <li><a href="#video">10</a></li>
+          <li><a href="#divs-span">11</a></li>
+          <li><a href="#attributes">12</a></li>
+          <li><a href="#tables">13</a></li>
+          <li><a href="#input">14</a></li>
+          <li><a href="#checkboxes">15</a></li>
+          <li><a href="#forms">16</a></li>
+          <li><a href="#footer">17</a></li>
+        </ul>
+      </nav>
+    <section id="types" class="sections">
+        <hr>
+        <h2>Types of Text</h2>
+        <hr>
         <table>
+          <thead>
             <tr>
-                <th>TEXT</th>
-                <th>CODE</th>
-                <th>DESCRIPTION</th>
+              <th>Text</th>
+              <th>Code</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><i>Alternative</i></td>
+              <td><code>&lt;i&gt;&lt;/i&gt;</code></td>
+              <td>For technical terms</td>
             </tr>
             <tr>
-                <td><i>Alternative</i></td>
-                <td><code>&lt;i&gt;&lt;/i&gt;</code></td>
-                <td>For technical terms</td>
+              <td><em>Emphasis</em></td>
+              <td><code>&lt;em&gt;&lt;/em&gt;</code></td>
+              <td>Stressed emphasis at text</td>
             </tr>
             <tr>
-                <td><em>Emphasis</em></td>
-                <td><code>&lt;em&gt;&lt;/em&gt;</code></td>
-                <td>Stressed emphasis at text</td>
+              <td><strong>Strong</strong></td>
+              <td><code>&lt;strong&gt;&lt;/strong&gt;</code></td>
+              <td>Represents importance</td>
             </tr>
             <tr>
-                <td><strong>Strong</strong></td>
-                <td><code>&lt;strong&gt;&lt;/strong&gt;</code></td>
-                <td>Represent importance</td>
+              <td><b>Bold</b></td>
+              <td><code>&lt;b&gt;&lt;/b&gt;</code></td>
+              <td>For key words</td>
             </tr>
             <tr>
-                <td><b>Bold</b></td>
-                <td><code>&lt;b&gt;&lt;/b&gt;</code></td>
-                <td>For key words</td>
+              <td><small>Small</small></td>
+              <td><code>&lt;small&gt;&lt;/small&gt;</code></td>
+              <td>Useful for footer text</td>
             </tr>
-            <tr>
-                <td><small>Small</small></td>
-                <td><code>&lt;small&gt;&lt;/small&gt;</code></td>
-                <td>Usefull at footer</td>
-            </tr>
+          </tbody>
         </table>
-    </section>
-    <section id="lists">
-        <hr /><h3>Types of lists</h3><hr />
+      </section>
+    <section id="lists" class="sections">
+        <hr>
+        <h2>Types of lists</h2>
+        <hr>
         <table>
+          <thead>
             <tr>
-                <th>CODE</th>
-                <th>TABLE</th>
+              <th>Code</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <code>&lt;ul&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>
+                &lt;/ul&gt;
+                </code>
+              </td>
+              <td>
+                <ul>
+                  <li>Unordered list</li>
+                  <li>item</li>
+                  <li>item</li>
+                </ul>
+              </td>
             </tr>
             <tr>
-                <td>
-                    <code>
-                        &lt;ul&gt;<br />
-                        &lt;li&gt;&lt;/li&gt;<br />
-                        &lt;/ul&gt;
-                    </code>
-                </td>
-                <td>
-                    <ul>Unordered list
-                    <li>item</li>
-                    <li>item</li>
-                    </ul>
-                </td>
+              <td>
+                <code>&lt;ol&gt;<br>
+                &nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>
+                &lt;/ol&gt;
+                </code>
+              </td>
+              <td>
+                <ol>
+                  <li>Ordered list</li>
+                  <li>item</li>
+                  <li>item</li>
+                </ol>
+              </td>
             </tr>
             <tr>
-                <td>
-                    <code>
-                        &lt;ol&gt;<br />
-                        &lt;li&gt;&lt;/li&gt;<br />
-                        &lt;/ol&gt;
-                    </code>
-                </td>
-                <td>
-                    <ol>Ordered list
-                        <li>item</li>
-                        <li>item</li>
-                    </ol>
-                </td>
+              <td>
+                <code>&lt;dl&gt;<br>
+                &nbsp;&nbsp;&lt;dt&gt;&lt;/dt&gt;<br>
+                &nbsp;&nbsp;&lt;dd&gt;&lt;/dd&gt;<br>
+                &lt;/dl&gt;
+                </code>
+              </td>
+              <td>
+                <dl>
+                  <dt>Definition list</dt>
+                  <dd>Definition of the term</dd>
+                </dl>
+              </td>
             </tr>
-            <tr>
-                <td>
-                    <code>
-                        &lt;dl&gt;<br />
-                        &lt;dt&gt;&lt;/dt&gt;<br />
-                        &lt;dd&gt;&lt;/dd&gt;<br />
-                        &lt;/dl&gt;
-                    </code>
-                </td>
-                <td>
-                    <dl>
-                    <dt></dt>
-                    <dd>Definition list</dd>
-                    </dl>
-                </td>
-            </tr>
+          </tbody>
         </table>
-    </section>
-    <section id="format">
-        <hr /><h3>Format types</h3><hr />
+    </section>      
+    <section id="format" class="sections">
+        <hr /><h2>Format types</h2><hr />
         <table>
             <tr>
                 <th>FORMAT</th>
@@ -130,8 +160,8 @@
             </tr>
         </table>
     </section>
-    <section id="quotes">
-        <hr /><h3>Quotes</h3><hr />
+    <section id="quotes" class="sections">
+        <hr /><h2>Quotes</h2><hr />
         <table>
             <tr>
                 <th>Quote</th>
@@ -171,8 +201,8 @@
             </tr> 
         </table>
     </section>
-    <section id="time">
-        <hr /><h3>Time</h3><hr />
+    <section id="time" class="sections">
+        <hr /><h2>Time</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -216,8 +246,8 @@
             </tr>
         </table>
     </section>
-    <section id="links">
-        <hr /><h3>Links</h3><hr />
+    <section id="links" class="sections">
+        <hr /><h2>Links</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -253,8 +283,8 @@
             </tr>
         </table>
     </section>
-    <section id="navegation">
-        <hr /><h3>Navegation</h3><hr />
+    <section id="navegation" class="sections">
+        <hr /><h2>Navegation</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -281,8 +311,8 @@
             </tr>
         </table>
     </section>
-    <section id="images">
-        <hr /><h3>Images</h3><hr />
+    <section id="images" class="sections">
+        <hr /><h2>Images</h2><hr />
         <table>
             <tr>
                 <th>Way to show</th>
@@ -340,8 +370,8 @@
             </tr>
         </table>
     </section>
-    <section id="audio">
-        <hr /><h3>Audio</h3><hr />
+    <section id="audio" class="sections">
+        <hr /><h2>Audio</h2><hr />
         <table>
             <tr>
                 <th>Output</th>
@@ -361,8 +391,8 @@
         </table>
 		  
     </section>
-    <section id="video">
-        <hr /><h3>Video</h3><hr />
+    <section id="video" class="sections">
+        <hr /><h2>Video</h2><hr />
         <table>
             <tr>
                 <th>Output</th>
@@ -384,8 +414,8 @@
             </tr>
         </table>
     </section>
-    <section id="divs-span">
-        <hr /><h3>Divs-Span</h3><hr />
+    <section id="divs-span" class="sections">
+        <hr /><h2>Divs-Span</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -412,8 +442,8 @@
             </tr>
         </table>
     </section>
-    <section id="attributes">
-        <hr /><h3>Global-Attributes</h3><hr />
+    <section id="attributes" class="sections">
+        <hr /><h2>Global-Attributes</h2><hr />
         <table>
             <tr>
                 <th>Attribute</th>
@@ -441,8 +471,8 @@
             </tr>
         </table>
     </section>
-    <section id="tables">
-        <hr /><h3>Tables</h3><hr />
+    <section id="tables" class="sections">
+        <hr /><h2>Tables</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -478,8 +508,8 @@
             </tr>
         </table>
     </section>
-    <section id="input">
-        <hr /><h3>Input</h3><hr />
+    <section id="input" class="sections">
+        <hr /><h2>Input</h2><hr />
         <table>
             <tr>
                 <th>Type</th>
@@ -593,8 +623,8 @@
             </tr>
         </table>
     </section>
-    <section id="checkboxes">
-        <hr /><h3>Checkboxes</h3><hr />
+    <section id="checkboxes" class="sections">
+        <hr /><h2>Checkboxes</h2><hr />
         <table>
             <tr>
                 <th>Code</th>
@@ -662,8 +692,8 @@
             </tr>
         </table>
     </section>
-    <section id="forms">
-        <hr /><h3>Forms</h3><hr />
+    <section id="forms" class="sections">
+        <hr /><h2>Forms</h2><hr />
         <table>
             <tr>
                 <th>Form</th>
@@ -691,8 +721,8 @@
             </tr>
         </table>
     </section>
-    <section id="footer">
-        <hr /><h3>Footer</h3><hr />
+    <section id="footer" class="sections">
+        <hr /><h2>Footer</h2><hr />
         <table>
             <tr>
                 <tr>
