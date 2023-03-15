@@ -1,11 +1,9 @@
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
   }
   
-  /* Header styles */
   header {
     background-color: #333;
     color: #fff;
@@ -16,7 +14,6 @@ body {
     margin: 0;
   }
   
-  /* Main styles */
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -51,4 +48,4 @@ body {
   
   tr:nth-child(even) {
     background-color: #f2f2f
-  
+  }  
