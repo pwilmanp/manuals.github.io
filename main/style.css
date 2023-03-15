@@ -1,25 +1,59 @@
-html{
-    font-size: 100%;
-    background-color: grey;
+#title {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
-h1{
-    background-color: greenyellow;
-    width:11.59em;
-    font-size: 3em;
-    font-weight: 100;
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	height: 60px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 18px;
 }
-a{
-    font-size: 2rem;
-    text-decoration: none;
-    color: white;
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+	z-index: 2;
+	padding: 10px;
+	border-radius: 5px;
 }
-.web{
-    color: white;
+
+nav a:hover {
+	color: #333;
+	background-color: #fff;
+	transform: translateY(-5px);
 }
-#editor{
-    color: white;
+
+nav a:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: right;
+	z-index: -1;
+	transition: transform 0.3s ease-in-out;
 }
-nav{
-    background-color: black;
-    width: 35em;
+
+nav a:hover:before {
+	transform: scaleX(1);
+	transform-origin: left;
 }
