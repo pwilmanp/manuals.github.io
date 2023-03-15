@@ -1,65 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dit="ltr">
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Git-Github review" />
     <title>Git-Github</title>
-    <link rel="icon" href="" />
-    <link rel="stylesheet" href="./pages/styles/git-github.css" />
-</head>
+    <link rel="stylesheet" href="../styles/git-github.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1 id="title">Git-Github</h1>
+      <h1 id="title">Git-Github</h1>
     </header>
-    <section id="all">
+
+    <main>
+      <section>
+        <h2>Git Commands</h2>
         <table>
+          <thead>
             <tr>
-                <th>Description</th>
-                <th>Hotkey</th>
+              <th>Description</th>
+              <th>Hotkey</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Start a new repository</td>
+              <td>git init</td>
             </tr>
             <tr>
-                <td>Start a new repository</td>
-                <td>git init</td>
+              <td>Output status of the files</td>
+              <td>git status</td>
             </tr>
             <tr>
-                <td>Output status of the files </td>
-                <td>git status</td>
+              <td>Add current repository files to staged memory</td>
+              <td>git add .</td>
             </tr>
             <tr>
-                <td>Add current repository files to staged memory</td>
-                <td>git add .</td>
+              <td>Commit staged changes to your git repository</td>
+              <td>git commit -m</td>
             </tr>
             <tr>
-                <td>Commit staged changes to your git repository-</td>
-                <td>git commit -m</td>
+              <td>Remove file from staged</td>
+              <td>git rm --cached</td>
             </tr>
             <tr>
-                <td>Remove file from staged</td>
-                <td>git rm --cached</td>
+              <td>Remove file from git repository and personal repository</td>
+              <td>git rm</td>
             </tr>
             <tr>
-                <td>Remove file from git repository and personal repository</td>
-                <td>git rm</td>  
+              <td>List the version history for the current branch</td>
+              <td>git log</td>
             </tr>
             <tr>
-                <td>List the version history for the current branch.</td>
-                <td>git log</td>
+              <td>Set the URL for the remote repository</td>
+              <td>git remote add origin "link"</td>
             </tr>
             <tr>
-                <td></td>
-                <td>git remote add origin "link"</td>
+              <td>Push commits made on your local branch to the remote repository</td>
+              <td>git push origin main</td>
             </tr>
             <tr>
-                <td></td>
-                <td>git push origin main</td>   
+              <td>Pull changes from the remote repository to your local branch</td>
+              <td>git pull origin main</td>
             </tr>
-            <tr>
-                <td></td>
-                <td>git pull origin main</td>
-            </tr>
+          </tbody>
         </table>
-</body>
+      </section>
+    </main>
+  </body>
 </html>
