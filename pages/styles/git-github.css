@@ -1,3 +1,18 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #4c4c4c;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
