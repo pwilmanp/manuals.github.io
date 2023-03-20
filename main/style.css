@@ -67,3 +67,17 @@ nav a:hover {
 		align-items: center;
 	}
 }
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #4cff4c, 0 0 50px #4cff4c, 0 0 60px #4cff4c, 0 0 70px #4cff4c;
+  }
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4cff4c, 0 0 40px #4cff4c, 0 0 50px #4cff4c, 0 0 60px #4cff4c, 0 0 70px #4cff4c, 0 0 80px #4cff4c;
+  }
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
+  animation: glow 2s ease-in-out infinite;
+}
+
