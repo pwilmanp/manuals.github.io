@@ -53,6 +53,26 @@
               <td>git log</td>
             </tr>
             <tr>
+            <tr>
+              <td>Compare commits with indicators</td>
+              <td>git diff "commitIndicator" "commitIndicator"</td>
+            </tr>
+              <td>Show changes at that file</td>
+              <td>git show "file"</td>
+            </tr>
+            </tr>
+              <td>Checkout that commit indicator</td>
+              <td>git checkout "commitIndicator + "file"</td>
+            </tr>
+            <tr>
+              <td>New commit adding files too</td>
+              <td>git commit -am ""</td>
+            </tr>
+            <tr>
+              <td>Hard reset to that commit</td>
+              <td>git reset "commitIndicator" --hard</td>
+            </tr>
+            <tr>
               <td>Set the URL for the remote repository</td>
               <td>git remote add origin "link"</td>
             </tr>
@@ -63,6 +83,10 @@
             <tr>
               <td>Pull changes from the remote repository to your local branch</td>
               <td>git pull origin main</td>
+            </tr>
+            <tr>
+              <td>Configure initial branch name to use in all new repositories</td>
+              <td>git config --global init.defaultBranch main</td>
             </tr>
           </tbody>
         </table>
